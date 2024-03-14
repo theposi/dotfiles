@@ -1,0 +1,56 @@
+[shell]
+program = "/bin/zsh"
+args = ["-l"]
+
+[window]
+# dimensions = {  }
+# position = {  }
+padding = { x = 10, y = 10}
+dynamic_padding = false
+decorations = "full"
+opacity = 1
+blur = false
+startup_mode = "Windowed"
+title = "Hola mundo"
+dynamic_title = true
+# class = {  }
+decorations_theme_variant = "Dark"
+resize_increments = false
+# option_as_alt = "None"
+
+[font]
+normal = { family = "Hack", style = "Regular"}
+bold = { family = "Hack", style = "Bold"}
+italic = { family = "Hack", style = "Italic"}
+bold_italic = { family = "Hack", style = "Bold Italic"}
+size = 14
+# offset = {  }
+# glyph_offset = {  }
+builtin_box_drawing = false
+
+[colors]
+[colors.primary]
+background = '#1a1b26'
+foreground = '#a9b1d6'
+
+# Normal colors
+[colors.normal]
+black   = '#282c34'
+red     = '#e06c75'
+green   = '#98c379'
+yellow  = '#d19a66'
+blue    = '#61afef'
+magenta = '#c678dd'
+cyan    = '#56b6c2'
+white   = '#abb2bf'
+
+# Bright colors
+[colors.bright]
+black   = '#5c6370'
+red     = '#e06c75'
+green   = '#98c379'
+yellow  = '#d19a66'
+blue    = '#61afef'
+magenta = '#c678dd'
+cyan    = '#56b6c2'
+white   = '#ffffff'

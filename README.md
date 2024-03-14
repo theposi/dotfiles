@@ -1,0 +1,4 @@
+# dotfiles
+zellij
+zsh
+starship
