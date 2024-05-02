@@ -15,8 +15,8 @@ PATH=~/.console-ninja/.bin:$PATH
 # Created by `pipx`
 export PATH="$PATH:/home/elposi/.local/bin"
 
-alias francinette=/home/elposi/francinette/tester.sh
+alias francinette=/home/theposi/francinette/tester.sh
 
-alias paco=/home/elposi/francinette/tester.sh
+alias paco=/home/theposi/francinette/tester.sh
 
-export PATH=$PATH:/home/elposi/.spicetify
+export PATH=$PATH:/home/theposi/.spicetify

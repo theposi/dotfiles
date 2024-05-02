@@ -3,9 +3,9 @@ return {
 	event = "VimEnter",
 	config = function()
 		local alpha = require("alpha")
-		local dashboard = require("alpha.themes.dashboard")
-
-		-- Set custom header
+        local dashboard = require("alpha.themes.dashboard")
+		
+        -- Set custom header
 		dashboard.section.header.val = [[
 		      ___           ___           ___           ___                       ___     
 		     /\__\         /\  \         /\  \         /\__\          ___        /\__\   
