@@ -1,3 +1,9 @@
+autoload -Uz compinit
+zstyle ':completion:*' menu select
+zmodload zsh/complist
+compinit
+_comp_options+=(globdots)
+
 eval "$(starship init zsh)"
 
 # ALIAS
@@ -20,3 +26,6 @@ alias francinette=/home/theposi/francinette/tester.sh
 alias paco=/home/theposi/francinette/tester.sh
 
 export PATH=$PATH:/home/theposi/.spicetify
+
+# Created by `pipx` on 2024-05-02 10:04:05
+export PATH="$PATH:/home/theposi/.local/bin"
