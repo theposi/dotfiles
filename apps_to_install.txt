@@ -1,0 +1,7 @@
+zsh
+neovim
+zellij
+alacritty
+obsidian
+brave-bin
+obs-studio
