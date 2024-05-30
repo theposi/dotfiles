@@ -29,3 +29,8 @@ export PATH=$PATH:/home/theposi/.spicetify
 
 # Created by `pipx` on 2024-05-02 10:04:05
 export PATH="$PATH:/home/theposi/.local/bin"
+
+#IDS
+export PATH=$PATH:~/RustRover-2024.1/bin
+export PATH=$PATH:~/clion-2024.1.1/bin
+

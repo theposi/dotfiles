@@ -133,3 +133,8 @@ alias dev="cd ~/Documents/Development/"
 #42 Francinette tester
 alias paco="~/francinette/tester.sh"
 alias francinette=~/francinette/tester.sh
+
+# IDS
+alias nv="nvim"
+alias rustrover=~/RustRover-2024.1/bin/rustrover.sh
+alias clion=~/clion-2024.1.1/bin/clion.sh
