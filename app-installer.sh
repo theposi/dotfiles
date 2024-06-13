@@ -8,7 +8,6 @@ BOLD_GREEN='\033[1;32m'
 app_file=$1
 if [[ -z "$app_file" ]]; then
 	echo -e "${BOLD_RED}Oops!${NO_COLOR}"
-	# echo -e "I wanna help you but at least give me the ${BOLD_GREEN}app list${NO_COLOR} you want to install"
 	echo -e "It would be great if u gimme the ${BOLD_GREEN}app list${NO_COLOR} you want to install :3"
 	exit 1
 else
