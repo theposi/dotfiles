@@ -10,5 +10,3 @@ return {
     { "<leader>xt", "<cmd>TodoTrouble<CR>", desc = "Open todos in trouble" },
   },
 }
-
---HACK:
