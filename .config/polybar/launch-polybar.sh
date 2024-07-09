@@ -14,3 +14,4 @@ if type "xrandr" > /dev/null; then
 else
   polybar --reload bar &
 fi
+

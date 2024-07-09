@@ -160,3 +160,6 @@ exec_always --no-startup-id picom
 
 # Awesome polybar
 exec_always --no-startup-id ~/.config/polybar/launch-polybar.sh
+
+# Manage monitors
+exec_always --no-startup-id ~/.config/polybar/spread-monitor.sh
