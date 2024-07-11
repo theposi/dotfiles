@@ -1,22 +1,22 @@
 ## FIRST LINE/ROW: Info & Status
 # First param ─┌
 [username]
-format = " [$user]($style)@"
+format = '[┌────>]($style) [$user]($style) - '
 show_always = true
-style_root = "bold red"
-style_user = "bold red"
+style_root = "green"
+style_user = "bright-cyan"
 
 # Second param
 [hostname]
 disabled = false
 format = "[$hostname]($style) in "
 ssh_only = false
-style = "bold dimmed red"
+style = "bright-yellow"
 trim_at = "-"
 
 # Third param
 [directory]
-style = "purple"
+style = "blue"
 truncate_to_repo = true
 truncation_length = 0
 truncation_symbol = "repo: "
@@ -52,16 +52,16 @@ time_format = "%T"
 
 # Prompt: param 2
 [character]
-error_symbol = " [×](bold red)"
-success_symbol = " [󰈸](bold red)"
+success_symbol = "[└─>](bright-cyan)"
+error_symbol = "[└─>](bright-red)"
 
 # SYMBOLS
-[status]
-disabled = false
-format = '[\[$symbol$status_common_meaning$status_signal_name$status_maybe_int\]]($style)'
-map_symbol = true
-pipestatus = true
-symbol = " "
+# [status]
+# disabled = false
+# format = '[\[$symbol$status_common_meaning$status_signal_name$status_maybe_int\]]($style)'
+# map_symbol = true
+# pipestatus = true
+# symbol = " "
 
 [aws]
 symbol = " "
