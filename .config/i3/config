@@ -23,6 +23,11 @@ bindsym $mod+Shift+q kill
 # Launch Dolphin File Manager
 bindsym $mod+Shift+i exec dolphin
 
+# Screenshots
+bindsym $mod+Shift+g exec flameshot gui
+bindsym $mod+Shift+f exec flameshot full 
+bindsym $mod+Shift+s exec flameshot screen
+
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run
 # There also is the (new) i3-dmenu-desktop which only displays applications
