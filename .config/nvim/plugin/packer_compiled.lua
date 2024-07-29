@@ -76,7 +76,7 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   ["42-header.nvim"] = {
     commands = { "Stdheader" },
-    config = { "\27LJ\2\nˆ\1\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0016\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\4\16auto_update\2\16default_map\2\tmail\"crizapat@student.42madrid.com\tuser\rcrizapat\nsetup\r42header\frequire\0" },
+    config = { "\27LJ\2\nˆ\1\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0016\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\4\16default_map\2\tuser\rcrizapat\tmail\"crizapat@student.42madrid.com\16auto_update\2\nsetup\r42header\frequire\0" },
     loaded = false,
     needs_bufread = false,
     only_cond = false,
@@ -183,14 +183,14 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: which-key.nvim
-time([[Config for which-key.nvim]], true)
-try_loadstring("\27LJ\2\nt\0\0\3\0\a\0\0156\0\0\0009\0\1\0+\1\2\0=\1\2\0006\0\0\0009\0\1\0)\1,\1=\1\3\0006\0\4\0'\2\5\0B\0\2\0029\0\6\0004\2\0\0B\0\2\1K\0\1\0\nsetup\14which-key\frequire\15timeoutlen\ftimeout\6o\bvim\0", "config", "which-key.nvim")
-time([[Config for which-key.nvim]], false)
 -- Config for: alpha-nvim
 time([[Config for alpha-nvim]], true)
 try_loadstring("\27LJ\2\nû\3\0\0\1\0\1\0\0025\0\0\0L\0\2\0\1\t\0\0A    ___       ___       ___       ___       ___       ___   A   /\\__\\     /\\  \\     /\\  \\     /\\__\\     /\\  \\     /\\__\\  A  /:| _|_   /::\\  \\   /::\\  \\   /:/ _/_   _\\:\\  \\   /::L_L_ A /::|/\\__\\ /::\\:\\__\\ /:/\\:\\__\\ |::L/\\__\\ /\\/::\\__\\ /:/L:\\__\\A \\/|::/  / \\:\\:\\/  / \\:\\/:/  / |::::/  / \\::/\\/__/ \\/_/:/  /A   |:/  /   \\:\\/  /   \\::/  /   L;;/__/   \\:\\__\\     /:/  / A   \\/__/     \\/__/     \\/__/               \\/__/     \\/__/  A by: theposintech                                           Š\1\1\0\6\0\t\0\0166\0\0\0'\2\1\0B\0\2\0026\1\0\0'\3\2\0B\1\2\0023\2\3\0009\3\4\0019\3\5\3\18\4\2\0B\4\1\2=\4\6\0039\3\a\0009\5\b\1B\3\2\1K\0\1\0\topts\nsetup\bval\vheader\fsection\0\26alpha.themes.startify\nalpha\frequire\0", "config", "alpha-nvim")
 time([[Config for alpha-nvim]], false)
+-- Config for: which-key.nvim
+time([[Config for which-key.nvim]], true)
+try_loadstring("\27LJ\2\nt\0\0\3\0\a\0\0156\0\0\0009\0\1\0+\1\2\0=\1\2\0006\0\0\0009\0\1\0)\1,\1=\1\3\0006\0\4\0'\2\5\0B\0\2\0029\0\6\0004\2\0\0B\0\2\1K\0\1\0\nsetup\14which-key\frequire\15timeoutlen\ftimeout\6o\bvim\0", "config", "which-key.nvim")
+time([[Config for which-key.nvim]], false)
 
 -- Command lazy-loads
 time([[Defining lazy-load commands]], true)
