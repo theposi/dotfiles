@@ -116,4 +116,19 @@ return require('packer').startup(function(use)
             alpha.setup(dashboard.opts)
         end,
     }
+
+    -- Indent blankline
+    use "lukas-reineke/indent-blankline.nvim"
+
+    -- File explorer
+    use {
+        'nvim-neo-tree/neo-tree.nvim',
+        branch = "v2.x",
+        requires = {
+            "nvim-lua/plenary.nvim",
+            "nvim-tree/nvim-web-devicons",
+            "MunifTanjim/nui.nvim",
+        }
+    }
+
 end)
