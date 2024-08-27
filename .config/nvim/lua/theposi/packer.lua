@@ -61,14 +61,13 @@ return require('packer').startup(function(use)
         "Diogo-ss/42-header.nvim",
         cmd = { "Stdheader" },
         config = function()
-            require "42header"setup {
-                default_map = true, -- Default mapping <F1> in normal mode.
-                auto_update = true, -- Update header when saving.
-                user = "crizapat", -- Your user.
-                mail = "crizapat@student.42madrid.com", -- Your mail.
+            require("42header").setup {
+                default_map = false,
+                auto_update = true,
+                user = "crizapat",
+                mail = "crizapat@student.42madrid.com",
             }
         end,
-
     }
 
     -- Wich Key
