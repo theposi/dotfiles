@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/theposi/.cache/nvim/packer_hererocks/2.1.1720049189/share/lua/5.1/?.lua;/home/theposi/.cache/nvim/packer_hererocks/2.1.1720049189/share/lua/5.1/?/init.lua;/home/theposi/.cache/nvim/packer_hererocks/2.1.1720049189/lib/luarocks/rocks-5.1/?.lua;/home/theposi/.cache/nvim/packer_hererocks/2.1.1720049189/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/theposi/.cache/nvim/packer_hererocks/2.1.1720049189/lib/lua/5.1/?.so"
+local package_path_str = "/home/theposi/.cache/nvim/packer_hererocks/2.1.1725453128/share/lua/5.1/?.lua;/home/theposi/.cache/nvim/packer_hererocks/2.1.1725453128/share/lua/5.1/?/init.lua;/home/theposi/.cache/nvim/packer_hererocks/2.1.1725453128/lib/luarocks/rocks-5.1/?.lua;/home/theposi/.cache/nvim/packer_hererocks/2.1.1725453128/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/theposi/.cache/nvim/packer_hererocks/2.1.1725453128/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -76,7 +76,7 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   ["42-header.nvim"] = {
     commands = { "Stdheader" },
-    config = { "\27LJ\2\nï\1\0\0\6\0\v\0\0156\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\0016\0\4\0009\0\5\0009\0\6\0'\2\a\0'\3\b\0'\4\t\0005\5\n\0B\0\5\1K\0\1\0\1\0\2\fnoremap\2\vsilent\2\19:Stdheader<CR>\14<leader>h\6n\20nvim_set_keymap\bapi\bvim\1\0\4\tmail\"crizapat@student.42madrid.com\16default_map\1\tuser\rcrizapat\16auto_update\2\nsetup\r42header\frequire\0" },
+    config = { "\27LJ\2\nˆ\1\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\4\tuser\rcrizapat\tmail\"crizapat@student.42madrid.com\16auto_update\2\16default_map\1\nsetup\r42header\frequire\0" },
     loaded = false,
     needs_bufread = false,
     only_cond = false,
@@ -118,6 +118,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/theposi/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
+  },
+  ["markdown-preview.nvim"] = {
+    loaded = true,
+    path = "/home/theposi/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
+    url = "https://github.com/iamcco/markdown-preview.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
