@@ -7,3 +7,6 @@
 [submodule ".config/waybar"]
 	path = .config/waybar
 	url = git@github.com:theposi/waybar.git
+[submodule ".config/hypr"]
+	path = .config/hypr
+	url = git@github.com:theposi/hypr.git
