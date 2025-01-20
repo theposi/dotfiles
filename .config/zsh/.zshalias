@@ -138,3 +138,4 @@ alias francinette=~/francinette/tester.sh
 alias nv="nvim"
 alias rustrover=~/RustRover-2024.1/bin/rustrover.sh
 alias clion=~/clion-2024.1.1/bin/clion.sh
+alias pycharm=~/pycharm-2024.2.3/bin/pycharm.sh
