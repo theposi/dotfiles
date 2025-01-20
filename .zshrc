@@ -33,4 +33,7 @@ export PATH="$PATH:/home/theposi/.local/bin"
 #IDS
 export PATH=$PATH:~/RustRover-2024.1/bin
 export PATH=$PATH:~/clion-2024.1.1/bin
+export PATH=$PATH:~/pycahrm-2024.2.3/bin
 
+#FETCH
+fastfetch
